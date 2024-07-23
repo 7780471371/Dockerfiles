@@ -1,2 +1,2 @@
 FROM almalinux:8
-ADD hello.txt
+ADD hello.txt /tmp/
