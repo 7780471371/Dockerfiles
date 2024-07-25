@@ -4,5 +4,5 @@ RUN echo "WELCOME TO DOCKER">/usr/share/nginx/html/hello.html
 #run in single layer how to use commands
 RUN yum install git -y \
     && yum install maven -y \
-    && yum install gcp -y
+    && yum install gcc -y
 CMD ["nginx", "-g", "daemon off;"]
